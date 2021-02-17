@@ -1,0 +1,103 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
+		'Helvetica Neue', sans-serif;
+}
+
+.App {
+	width: 100vw;
+	height: 100vh;
+	background: url(./background-image.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	height: 10vh;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
+		'Helvetica Neue', sans-serif;
+	font-size: 1.5rem;
+	text-transform: uppercase;
+}
+
+.main-content {
+	display: flex;
+	justify-content: space-around;
+	width: 100vw;
+	height: 80vh;
+	margin-top: 1rem;
+}
+
+.form {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	width: 30vw;
+	height: 60%;
+	align-self: center;
+}
+
+input {
+	width: 20vw;
+	padding: 0.8rem;
+}
+
+.form-btn {
+	padding: 0.8rem;
+	width: 20vw;
+}
+
+.list-clients {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 70vw;
+	height: inherit;
+}
+
+.list-client__wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+
+.client-wrapper {
+	width: 100%;
+}
+
+.client {
+	display: flex;
+	justify-content: space-between;
+	margin: 0.2rem;
+	width: 90%;
+	height: 5vh;
+	color: white;
+}
+
+.client-info {
+	display: flex;
+	justify-content: space-evenly;
+	width: 60%;
+}
+
+.onvocation {
+	text-transform: line-through;
+	opacity: 0.3;
+}
+
+select {
+	padding: 0.1rem;
+	height: 5vh;
+	width: 10vw;
+}
+
+button {
+	margin: 0.1rem;
+}
