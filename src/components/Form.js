@@ -49,8 +49,11 @@ const Form = ({
 
 	return (
 		<div className="form">
+			Name
 			<input value={inputName} onChange={inputNameHandler} className="input-name" type="text" />
+			Specialty
 			<input value={inputSpecialty} onChange={inputSpecialtyHandler} className="input-specialty" type="text" />
+			Income
 			<input value={inputIncome} onChange={inputIncomeHandler} className="input-income" type="number" />
 			<button onClick={submitClientsHandler} className="form-btn" type="submit">
 				Submit
